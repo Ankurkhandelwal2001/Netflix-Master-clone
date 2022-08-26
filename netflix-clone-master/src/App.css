@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #111;
+}
+
+@media screen and (max-width: 750px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 250px) {
+  * {
+    font-size: 6px;
+  }
+}
